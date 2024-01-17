@@ -1,5 +1,17 @@
+* {  /* Usamos estrela pra selecionar tudo do html */
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh; /* Altura da nossa tela */
+
+    box-sizing: border-box; /* box-sizing é uma propriedade que define
+    como o tamanho total de um elemento é calculado,border-box é o mais adequado,
+    pois permite adicionar bordas e espaçamentos sem que o conteúdo saia do elemento "pai"*/
+
     background-color: black; /* tag para cor de fundo */
+
     color: #F6F6F6; /* Color para cor do texto */
 }
 
