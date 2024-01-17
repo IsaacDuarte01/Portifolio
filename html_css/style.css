@@ -1,0 +1,8 @@
+body {
+    background-color: black; /* tag para cor de fundo */
+    color: #F6F6F6; /* Color para cor do texto */
+}
+
+.titulo_principal  { /* Usamos o . para identificar que é a tag class */
+    color: #22D4FD;
+}
