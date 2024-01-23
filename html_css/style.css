@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap'); /* Pegamos a fonte para nossa pag no googlwfonts,e queremos usar no titulo */
+
 * {  /* Usamos estrela pra selecionar tudo do html */
 
     margin: 0; /* Ela determina a distância entre o elemento e os elementos vizinhos */
@@ -23,7 +26,22 @@ body {
 /* Flexbox determina aonde tudo vai ficar. Flexbox oferece uma abordagem mais 
 intuitiva e poderosa para o design de layouts responsivos e dinâmicos  */
 .apresentacao {
+    margin: 10%; /* Margem do nosso MAIN (apresentação) com %,vai modificar apenas oque esta aqui dentro */
     display: flex; /*controlar como um elemento é renderizado no layout; (flex) faz com que os elementos filhos de um contêiner sejam exibidos em linha e fiquem flexiveis */
     align-items: center; /*para seu próprio alinhamento; (center é o valor); */
     justify-content: space-between; /*Controla a distribuição dos itens ao longo do eixo principal;(space... ) é usada para distribuir o espaço disponível entre os itens de um contêiner; */
+}
+
+.apresentacao__conteudo { /* Destacamos no nome que estamos pegando algo dentro do conteudo pai,que seria o tamanho da fonte */
+    width: 615px; /* W de largura,conforme vimos no figma */
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px; /* tamanho da fonte de um elemento de texto */
+    font-family: 'Krona One', sans-serif; /* família de fonte a ser utilizada em um elemento de texto. */
+}
+
+.apresentacao__conteudo__titulo__texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
 }
