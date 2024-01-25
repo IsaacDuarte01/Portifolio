@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap'); /* Pegamos a fonte para nossa pag no googlwfonts,e queremos usar no titulo */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap'); /* Pegamos a fonte para nossa pag no googlwfonts,e queremos usar no titulo */
 
 * {  /* Usamos estrela pra selecionar tudo do html */
 
@@ -43,5 +43,23 @@ intuitiva e poderosa para o design de layouts responsivos e dinâmicos  */
 
 .apresentacao__conteudo__titulo__texto {
     font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px; /* Proriedade para curvar as bordas do nosso botão */
+    font-size: 24px;
+    font-weight: 600; /* Peso da fonte que pegamos no googlefonts */
+    padding: 21.5px 0; /* Primeiro valor do padding sempre é na vertical e o segundo sempre horizontal */
+    text-decoration: none; /* Para retirar as decorações que vem por padrão,sublinhado e etc */
+    color: black;
     font-family: 'Montserrat', sans-serif;
 }
