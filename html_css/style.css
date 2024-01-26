@@ -26,7 +26,7 @@ body {
 /* Flexbox determina aonde tudo vai ficar. Flexbox oferece uma abordagem mais 
 intuitiva e poderosa para o design de layouts responsivos e dinâmicos  */
 .apresentacao {
-    margin: 10%; /* Margem do nosso MAIN (apresentação) com %,vai modificar apenas oque esta aqui dentro */
+    margin: 10% 15%; /* Margem do nosso MAIN (apresentação) com %,vai modificar apenas oque esta aqui dentro */
     display: flex; /*controlar como um elemento é renderizado no layout; (flex) faz com que os elementos filhos de um contêiner sejam exibidos em linha e fiquem flexiveis */
     align-items: center; /*para seu próprio alinhamento; (center é o valor); */
     justify-content: space-between; /*Controla a distribuição dos itens ao longo do eixo principal;(space... ) é usada para distribuir o espaço disponível entre os itens de um contêiner; */
@@ -34,6 +34,9 @@ intuitiva e poderosa para o design de layouts responsivos e dinâmicos  */
 
 .apresentacao__conteudo { /* Destacamos no nome que estamos pegando algo dentro do conteudo pai,que seria o tamanho da fonte */
     width: 615px; /* W de largura,conforme vimos no figma */
+    display: flex; /* Para poder usar o flexbox */
+    flex-direction: column; /* para ficarem na vertical os itens do counteiner que é a classe do meio  */
+    gap: 40px; /* Pegamos o counteiner (classe do meio entre os filhos) do nosso cod html para definir o espaçamento entre os itens filhos */
 }
 
 .apresentacao__conteudo__titulo {
