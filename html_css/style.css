@@ -66,3 +66,27 @@ intuitiva e poderosa para o design de layouts responsivos e dinâmicos  */
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
+
+.imagem_unica {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+ 
+.imagem_unica_config {
+    width: 488px; /* Largura específica da imagem */
+    height: 550px; /* Altura específica da imagem */
+    border-radius: 16px; /* Borda arredondada com raio de 16px */
+    display: block;
+    position: absolute;
+    top: 210px; /* Posição vertical específica da imagem */
+    left: 1030px; /* Posição horizontal específica da imagem */
+    transform: translate(-200%, -90%);
+    border: 5px solid black; /* Cor azul escuro para a borda */
+    border-radius: 16px;/* transform no CSS é usada para aplicar transformações a um elemento. */
+     box-shadow: 60px 60px rgba(10, 0, 63, 0.7); /* Ajuste o valor para obter o efeito desejado */
+
+
+    
+}
