@@ -85,8 +85,5 @@ intuitiva e poderosa para o design de layouts responsivos e dinâmicos  */
     transform: translate(-200%, -90%);
     border: 5px solid black; /* Cor azul escuro para a borda */
     border-radius: 16px;/* transform no CSS é usada para aplicar transformações a um elemento. */
-     box-shadow: 60px 60px rgba(10, 0, 63, 0.7); /* Ajuste o valor para obter o efeito desejado */
-
-
-    
+    box-shadow: 60px 60px rgba(10, 0, 63, 0.7); /* Ajuste o valor para obter o efeito desejado */
 }
